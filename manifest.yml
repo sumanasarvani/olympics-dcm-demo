@@ -1,0 +1,17 @@
+manifest_version: 2
+
+type: DCM_PROJECT
+
+default_target: DEV
+
+targets:
+  DEV:
+    account_identifier: <your-account-identifier>
+    project_name: DCM_ADMIN.PROJECTS.OLYMPICS_DCM_DEMO
+    project_owner: ACCOUNTADMIN
+    templating_config: DEV
+
+templating:
+  configurations:
+    DEV:
+      db_name: "OLYMPICS_ANALYTICS_DEV"
